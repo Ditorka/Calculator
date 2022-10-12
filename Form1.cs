@@ -169,9 +169,6 @@ namespace BalanceCalculator
                     lbl_prime.Text = "Òàê!";
                 else
                     lbl_prime.Text = "Í³!";
-
-                //txt_r.Text = string.Format("({0} ^ ({1} - 1) - 1) % (mod{1}) = {2}", I, P, Result);
-
             }
             else
             {
