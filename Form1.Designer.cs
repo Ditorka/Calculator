@@ -47,7 +47,7 @@
             this.btn_sum.Name = "btn_sum";
             this.btn_sum.Size = new System.Drawing.Size(163, 56);
             this.btn_sum.TabIndex = 1;
-            this.btn_sum.Text = "Додавання";
+            this.btn_sum.Text = "Додавання a+b";
             this.btn_sum.UseVisualStyleBackColor = true;
             this.btn_sum.Click += new System.EventHandler(this.btn_sum_Click);
             // 
@@ -69,7 +69,7 @@
             this.btn_dif.Name = "btn_dif";
             this.btn_dif.Size = new System.Drawing.Size(163, 56);
             this.btn_dif.TabIndex = 4;
-            this.btn_dif.Text = "Віднімання";
+            this.btn_dif.Text = "Віднімання a-b";
             this.btn_dif.UseVisualStyleBackColor = true;
             this.btn_dif.Click += new System.EventHandler(this.btn_dif_Click);
             // 
@@ -80,7 +80,7 @@
             this.btn_mul.Name = "btn_mul";
             this.btn_mul.Size = new System.Drawing.Size(163, 56);
             this.btn_mul.TabIndex = 5;
-            this.btn_mul.Text = "Множення";
+            this.btn_mul.Text = "Множенняa a*b";
             this.btn_mul.UseVisualStyleBackColor = true;
             this.btn_mul.Click += new System.EventHandler(this.btn_mul_Click);
             // 
@@ -91,7 +91,7 @@
             this.btn_exp.Name = "btn_exp";
             this.btn_exp.Size = new System.Drawing.Size(163, 56);
             this.btn_exp.TabIndex = 6;
-            this.btn_exp.Text = "Зведення в ступінь";
+            this.btn_exp.Text = "Зведення в ступінь a^b";
             this.btn_exp.UseVisualStyleBackColor = true;
             this.btn_exp.Click += new System.EventHandler(this.btn_exp_Click);
             // 
@@ -229,7 +229,7 @@
             this.btn_eul.Name = "btn_eul";
             this.btn_eul.Size = new System.Drawing.Size(163, 56);
             this.btn_eul.TabIndex = 27;
-            this.btn_eul.Text = "Функція Ейлера";
+            this.btn_eul.Text = "Функція Ейлера a^(-1)";
             this.btn_eul.UseVisualStyleBackColor = true;
             this.btn_eul.Click += new System.EventHandler(this.btn_eul_Click);
             // 
@@ -240,7 +240,7 @@
             this.btn_del.Name = "btn_del";
             this.btn_del.Size = new System.Drawing.Size(163, 56);
             this.btn_del.TabIndex = 28;
-            this.btn_del.Text = "Ділення";
+            this.btn_del.Text = "Ділення a*b^(-1)";
             this.btn_del.UseVisualStyleBackColor = true;
             this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
             // 
@@ -262,7 +262,7 @@
             this.btn_inv_eul.Name = "btn_inv_eul";
             this.btn_inv_eul.Size = new System.Drawing.Size(163, 56);
             this.btn_inv_eul.TabIndex = 30;
-            this.btn_inv_eul.Text = "Зворотній елемент ф. Ейлера";
+            this.btn_inv_eul.Text = "Зворотній елемент ф. Ейлера а^(-1)";
             this.btn_inv_eul.UseVisualStyleBackColor = true;
             this.btn_inv_eul.Click += new System.EventHandler(this.btn_inv_eul_Click);
             // 
