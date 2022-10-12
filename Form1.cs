@@ -20,7 +20,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü óñ³ ïîëÿ, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã³Ã±Â³ Ã¯Ã®Ã«Ã¿, Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
         //-a
@@ -35,7 +35,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü ïîëå à òà ïîëå ìîäóëþ, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã¯Ã®Ã«Ã¥ Ã  Ã²Ã  Ã¯Ã®Ã«Ã¥ Ã¬Ã®Ã¤Ã³Ã«Ã¾, Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
         //a-b
@@ -52,7 +52,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü óñ³ ïîëÿ, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã³Ã±Â³ Ã¯Ã®Ã«Ã¿, Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
         //a*b
@@ -68,7 +68,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü óñ³ ïîëÿ, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã³Ã±Â³ Ã¯Ã®Ã«Ã¿, Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
         //a^(-1)
@@ -88,7 +88,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü ïîëå à òà ïîëå ìîäóëþ, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã¯Ã®Ã«Ã¥ Ã  Ã²Ã  Ã¯Ã®Ã«Ã¥ Ã¬Ã®Ã¤Ã³Ã«Ã¾, Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
         // /
@@ -113,7 +113,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü óñ³ ïîëÿ, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã³Ã±Â³ Ã¯Ã®Ã«Ã¿, Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
 
@@ -135,7 +135,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü óñ³ ïîëÿ, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã³Ã±Â³ Ã¯Ã®Ã«Ã¿, Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
 
@@ -166,16 +166,16 @@ namespace BalanceCalculator
                 }
 
                 if (divisor == 2)
-                    lbl_prime.Text = "Òàê!";
+                    lbl_prime.Text = "Ã’Ã Ãª!";
                 else
-                    lbl_prime.Text = "Í³!";
+                    lbl_prime.Text = "ÃÂ³!";
 
                 //txt_r.Text = string.Format("({0} ^ ({1} - 1) - 1) % (mod{1}) = {2}", I, P, Result);
 
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü ïîëå à, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã¯Ã®Ã«Ã¥ Ã , Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
 
@@ -183,28 +183,6 @@ namespace BalanceCalculator
         {
             if (string.IsNullOrWhiteSpace(txt_a.Text) == false)
             {
-                //int P = int.Parse(txt_a.Text);
-                //int A;
-                //int I;
-                //int Result;
-                //int i = P;
-
-                //for (; i > 2; i--)
-                //{
-                //    A = i - 2;
-                //    I = i - 1;
-                //    Result = 1;
-
-                //    for (int j = 0; j < I; j++)
-                //    {
-                //        Result *= A;
-
-                //        Result %= I;
-                //    }
-
-                //    Result -= 1;
-
-
                 int number = int.Parse(txt_a.Text);
 
                 int divisor = 0;
@@ -231,7 +209,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü ïîëå à, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã¯Ã®Ã«Ã¥ Ã , Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
 
@@ -263,11 +241,11 @@ namespace BalanceCalculator
 
                     if (Result == 0)
                     {
-                        txt_r.Text = string.Format("Íàéá³ëüøèé ä³ëüíèê äëÿ äâîõ ÷èñåë: {0}", minNum);
+                        txt_r.Text = string.Format("ÃÃ Ã©Ã¡Â³Ã«Ã¼Ã¸Ã¨Ã© Ã¤Â³Ã«Ã¼Ã­Ã¨Ãª Ã¤Ã«Ã¿ Ã¤Ã¢Ã®Ãµ Ã·Ã¨Ã±Ã¥Ã«: {0}", minNum);
                         if (minNum == 1)
-                            lbl_evk.Text = string.Format("×èñëà º âçàºìíî ïðîñò³!");
+                            lbl_evk.Text = string.Format("Ã—Ã¨Ã±Ã«Ã  Âº Ã¢Ã§Ã ÂºÃ¬Ã­Ã® Ã¯Ã°Ã®Ã±Ã²Â³!");
                         else
-                            lbl_evk.Text = string.Format("×èñëà íå º âçàºìíî ïðîñò³!");
+                            lbl_evk.Text = string.Format("Ã—Ã¨Ã±Ã«Ã  Ã­Ã¥ Âº Ã¢Ã§Ã ÂºÃ¬Ã­Ã® Ã¯Ã°Ã®Ã±Ã²Â³!");
                         break;
                     }
                     else
@@ -279,7 +257,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü ïîëÿ a òà b , áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã¯Ã®Ã«Ã¿ a Ã²Ã  b , Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
 
@@ -308,7 +286,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü ïîëå à, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã¯Ã®Ã«Ã¥ Ã , Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
 
@@ -352,7 +330,7 @@ namespace BalanceCalculator
             }
             else
             {
-                MessageBox.Show("Çàïîâí³òü ïîëå à, áóäü ëàñêà :)");
+                MessageBox.Show("Ã‡Ã Ã¯Ã®Ã¢Ã­Â³Ã²Ã¼ Ã¯Ã®Ã«Ã¥ Ã , Ã¡Ã³Ã¤Ã¼ Ã«Ã Ã±ÃªÃ  :)");
             }
         }
     }
