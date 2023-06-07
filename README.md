@@ -1,4 +1,4 @@
-An application built for my Application and data security course. That app performs a number of actions based on the properties of residue class groups.
+An application built for my Application And Data Security course. That app performs a number of actions based on the properties of residue class groups.
 
 # What I Learned
 
