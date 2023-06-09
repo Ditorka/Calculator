@@ -1,6 +1,6 @@
 # Calculator
 
-An application that  performs a number of actions based on the properties of residue class groups. 
+An application that performs a number of actions based on the properties of residue class groups. 
 
 # What I Learned
 
